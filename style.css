@@ -1,0 +1,103 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+font-family: 'Quicksand', sans-serif;
+}
+
+nav a{
+  text-decoration: none;
+  color:beige;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+nav{
+  background-color: rgb(227, 84, 134);
+}
+
+a:hover {
+  color: rgb(31, 2, 23);
+}
+
+p::first-line{
+  font-weight: bold;
+}
+
+a:hover::after{
+  color: rgb(230, 150, 235);
+  content: "💅";
+}
+
+body > header {
+  background-color: rgb(225, 50, 120);
+  color: beige;
+  padding-top: 30px;
+}
+header h1{
+  text-align: center ;
+  color: beige;
+}
+
+header p{
+  text-align: center;
+  color: beige;
+  padding-bottom: 30px;
+}
+
+main {
+  display: flex;
+  margin: 40px;
+  gap: 20px;
+ 
+}
+
+#content{
+  /* pembagian luas, 75% */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex: 3;
+  text-align: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+aside {
+  flex : 1;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+aside article header {
+    text-align: center;
+}
+
+aside article figure {
+    text-align: center;
+}
+
+aside article figure img {
+    display: block;
+    margin: auto;
+}
+
+aside article figcaption {
+    text-align: center;
+}
